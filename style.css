@@ -1,0 +1,24 @@
+table, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td{
+  padding: 5px;
+}
+
+tr:nth-child(even) .lol {
+  background-color: red;
+}
+
+tr:nth-child(odd) .lol {
+  background-color: white;
+}
+
+td:nth-child(even) {
+  background-color: yellow;
+}
+
+td:nth-child(odd) {
+  background-color: lime;
+}
