@@ -1,3 +1,9 @@
+$("#actTab").click(function activation(){
+	var nbTab = $("#nbTab").val();
+	var nbLignes = $("#nbLignes").val();
+	var nbCol = $("#nbCol").val();
+	console.log(nbTab, nbLignes, nbCol);
+
 var html= "";
 
 function tableNumber(tabNumber, arg1, arg, arg2, rowNumber, colNumber){
@@ -25,8 +31,10 @@ function loopTD(arg2, colNumber){
 }
 }
 
- tableNumber(1,3,4,3,1,1);
- tableNumber(3,5,3,4,1,1);
+tableNumber(0,nbTab,nbCol,nbLignes,1,0);
+ //tableNumber(1,3,4,3,1,1);
+ //tableNumber(3,5,3,4,1,1);
 
-$(".container").append(html);
-  
+$(".container").html(html);
+ })
+

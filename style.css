@@ -22,3 +22,7 @@ td:nth-child(even) {
 td:nth-child(odd) {
   background-color: lime;
 }
+
+.topMarg{
+	margin-top: 2%;
+}
